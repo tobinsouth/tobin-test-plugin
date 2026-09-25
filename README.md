@@ -11,7 +11,8 @@ A small Claude Code plugin for testing plugin install, review, and MCP flows.
 | Skill: `hello-world` | `skills/hello-world/SKILL.md` | Confirms skills load; pings the MCP server's `echo` tool |
 | Skill: `repo-summary` | `skills/repo-summary/SKILL.md` | Quick orientation to the current repo |
 | Hook: SessionStart | `hooks/hooks.json` → `hooks-handlers/session-start.sh` | Injects a note into context so you can see the hook fired |
-| MCP server: `everything` | `.mcp.json` | The reference `@modelcontextprotocol/server-everything` test server (needs Node/npx) |
+| MCP server: `everything` | `.mcp.json` | The reference `@modelcontextprotocol/server-everything` test server, pinned to 2026.8.31 (needs Node/npx) |
+| MCP server: `slack` | `.mcp.json` | Slack's hosted MCP server (`https://mcp.slack.com/mcp`); authenticates via OAuth on first use |
 | Logo | `logo.svg` | Plugin icon |
 
 ## Install
