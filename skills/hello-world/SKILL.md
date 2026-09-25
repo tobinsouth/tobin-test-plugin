@@ -8,5 +8,5 @@ description: Greet the user and confirm the tobin-test-plugin is installed and i
 Confirm that this plugin's skills are loading.
 
 1. Reply with: "tobin-test-plugin is installed and the hello-world skill loaded."
-2. List the other components this plugin ships: the `repo-summary` skill, the SessionStart hook, and the `everything` MCP server.
-3. If the `everything` MCP server's tools are available (named `mcp__plugin_tobin-test-plugin_everything__*`), call its `echo` tool with the message "hello from tobin-test-plugin" and show the result. If they aren't available, say so.
+2. List the other components this plugin ships: the `repo-summary` skill, the SessionStart hook, the `echo` MCP server, and the `slack` MCP server.
+3. If the `echo` MCP server's tool is available (named `mcp__plugin_tobin-test-plugin_echo__echo`), call it with the message "hello from tobin-test-plugin" and show the result. If they aren't available, say so.

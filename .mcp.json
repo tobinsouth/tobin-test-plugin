@@ -1,8 +1,7 @@
 {
   "mcpServers": {
-    "everything": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-everything@2026.8.31"]
+    "echo": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/servers/echo-server.sh"
     },
     "slack": {
       "type": "http",
