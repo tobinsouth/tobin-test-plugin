@@ -1,0 +1,17 @@
+{
+  "name": "tobin-test-plugin",
+  "description": "Marketplace hosting tobin-test-plugin, a test plugin with skills, a hook, and an MCP server",
+  "owner": {
+    "name": "Tobin South",
+    "url": "https://github.com/tobinsouth"
+  },
+  "plugins": [
+    {
+      "name": "tobin-test-plugin",
+      "description": "Test plugin with sample skills, a SessionStart hook, and an MCP server",
+      "version": "0.1.0",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}
