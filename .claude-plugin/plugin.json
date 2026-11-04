@@ -1,6 +1,6 @@
 {
   "name": "tobin-test-plugin",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Test plugin with sample skills, a SessionStart hook, and an MCP server, for exercising plugin install and review flows",
   "author": {
     "name": "Tobin South",
@@ -8,6 +8,13 @@
   },
   "homepage": "https://github.com/tobinsouth/tobin-test-plugin",
   "repository": "https://github.com/tobinsouth/tobin-test-plugin",
+  "privacyPolicyUrl": "https://australian-facts-mcp.tobin-south.workers.dev/privacy",
   "license": "MIT",
-  "keywords": ["test", "example", "skills", "hooks", "mcp"]
+  "keywords": [
+    "test",
+    "example",
+    "skills",
+    "hooks",
+    "mcp"
+  ]
 }

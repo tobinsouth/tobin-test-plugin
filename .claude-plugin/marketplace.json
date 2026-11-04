@@ -9,7 +9,7 @@
     {
       "name": "tobin-test-plugin",
       "description": "Test plugin with sample skills, a SessionStart hook, and an MCP server",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "source": "./",
       "category": "development"
     }

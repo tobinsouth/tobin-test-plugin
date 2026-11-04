@@ -6,6 +6,14 @@
     "slack": {
       "type": "http",
       "url": "https://mcp.slack.com/mcp"
+    },
+    "australian-facts": {
+      "type": "http",
+      "url": "https://australian-facts-mcp.tobin-south.workers.dev/mcp",
+      "oauth": {
+        "clientId": "aufacts-wZILIfFck7YK",
+        "callbackPort": 33418
+      }
     }
   }
 }
